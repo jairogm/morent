@@ -11,8 +11,8 @@ import Image from 'next/image'
 
 export function Navbar() {
   return (
-    <nav className='bg-white w-full h-[160px] pb-5 flex items-center justify-center sm:h-[124px] sm:pb-0'>
-      <div className='px-6 w-full h-40 flex  items-center justify-between flex-wrap md:flex-row sm:h-12 lg:px-16'>
+    <nav className='bg-white w-full h-[160px] pb-5  flex items-center justify-center sm:h-[124px] sm:pb-0'>
+      <div className='px-6 w-full h-40 flex  items-center justify-between flex-wrap md:flex-row sm:h-12 lg:pl-[60px] lg:pr-[32px]'>
         <div className='w-[108px] h-7 md:w-[148px] md:h-11 order-first'>
           <Image
             src='/logo.svg'

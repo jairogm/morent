@@ -5,7 +5,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          light: '#5CAFFC',
+          dark: '#3563E9'
+        }
+      },
+      fontFamily: {
+        "Jakarta": ["Plus Jakarta Sans", "sans-serif"],
+      },
+    },
+
     screens: {
       'xs': '520px',
 
@@ -21,8 +32,9 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
+      '1xl': '1440px',
+      // => @media (min-width: 1440px) { ... }
+
     }
   },
   plugins: [],

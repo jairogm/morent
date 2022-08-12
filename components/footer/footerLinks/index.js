@@ -1,7 +1,6 @@
 import links from "@utils/links.json"
 
 export  function FooterLinks() {
-  console.log(links)
   return (
     <div className="flex flex-wrap gap-6 mb-4">
       {
