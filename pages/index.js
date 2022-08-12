@@ -1,5 +1,18 @@
+//next
+import Head from "next/head";
+
+//components
+import { adsSection } from "@components/adsSection";
+
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold text-red-600">Hello World!</h1>
+    <div>
+      <Head>
+        <title>Home | Morent</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <adsSection />
+    </div>
   )
 }
