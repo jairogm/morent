@@ -8,7 +8,6 @@ import EllipseBG from '@assets/ellipseBG.svg'
 export function AdsSection() {
   return (
     <>
-
       <section className="w-full flex items-center justify-between gap-9 mt-3 mb-8 lg:mt-8 ">
         <div className=" w-[327px] lg:w-[640px] h-[240px] lg:h-[360px] border m-auto box-border bg-blue-light rounded-xl relative overflow-hidden">
           <EllipseBG />
