@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "About",
+    "links": {
+      "link1": "How it works",
+      "link2": "Featured",
+      "link3": "Partnership",
+      "link4": "Bussiness relation"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Socials",
+    "links": {
+      "link1": "Discord",
+      "link2": "Instagram",
+      "link3": "Twitter",
+      "link4": "Facebook"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Community",
+    "links": {
+      "link1": "Events",
+      "link2": "Blog",
+      "link3": "Podcast",
+      "link4": "Invite a friend"
+    }
+  }
+]
