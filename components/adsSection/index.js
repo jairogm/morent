@@ -21,6 +21,7 @@ export function AdsSection() {
             </button>
             <div className="w-full flex justify-center">
               <Car1 />
+              <br></br>
             </div>
           </div>
         </div>
