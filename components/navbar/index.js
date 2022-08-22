@@ -33,7 +33,7 @@ export function Navbar() {
           <li className='border rounded-full w-11 h-11 hidden lg:flex lg:items-center lg:justify-center'>
             <Setting />
           </li>
-          <li className='rounded-full w-7 h-7 sm:w-11 sm:h-11'>
+          <li className='rounded-full w-7 h-7 md:w-11 md:h-11'>
             <Image
               src='https://randomuser.me/api/portraits/women/33.jpg'
               alt='profile picture'
