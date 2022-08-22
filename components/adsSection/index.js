@@ -16,7 +16,7 @@ export function AdsSection() {
           layout="fill"
           alt="ellipse"
         />
-        <div className="absolute top-0 z-10 p-4 lg:p-6">
+        <div className="absolute top-0 z-10 p-4 lg:p-6 border border-red-600">
           <h1 className="font-normal text-base lg:text-[32px] lg:w-[272px] lg:leading-9 lg:text-start text-white mb-3">The Best Platform for Car Rental</h1>
           <p className="text-xs text-white mb-4 lg:text-base lg:leading-6 lg:w-[272px]">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
           <button className="bg-blue-dark py-2 px-4 rounded-md w-32 h-11 mb-9">
