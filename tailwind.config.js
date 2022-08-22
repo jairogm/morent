@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         "Jakarta": ["Plus Jakarta Sans", "sans-serif"],
       },
+      backgroundImage: {
+        "ellipse-pattern": "url('/public/assets/ellipseBG.svg')",
+      }
     },
 
     screens: {
