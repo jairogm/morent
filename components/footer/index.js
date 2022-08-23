@@ -7,7 +7,7 @@ import { FooterLinks } from "./footerLinks";
 
 export function Footer() {
   return (
-    <footer className=" w-full h-[380px] flex flex-col  px-6 pt-20 lg:px-16 sm:bg-white">
+    <footer className=" w-full h-[380px] flex flex-col  px-6 pt-20 lg:px-16 sm:bg-white ">
       <div className="sm:flex sm:flex-wrap sm:justify-between">
         <div className="flex flex-col gap-2 w-56 h-[92px] mb-6">
           <div className='w-[108px] h-7 md:w-[148px] md:h-11 mb-2'>
